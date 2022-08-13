@@ -10,10 +10,12 @@ function updateTime(){
 	var hrs = time.getHours();
 	var min = time.getMinutes();
 	var sec = time.getSeconds();
-	if(hrs>12){
+	if(hrs>=12){
+		ampm.textContent="PM";
 		hrs=hrs-12;
-		ampm.textContent="PM"
+		
 	}
+	
 	hours.textContent=hrs;
 	minutes.textContent=min;
 	seconds.textContent=sec;

@@ -1,0 +1,45 @@
+.title{
+	text-align: center;
+	margin-top: 10%;
+	color: #01014b;
+}
+.hours-block,.minutes-block,.seconds-block{
+	text-align: center;
+	margin-top: 5%;
+	opacity: 80%;
+
+
+	
+}
+
+.hours,.minutes,.seconds{
+	font-size: 4rem;
+	padding: 10%;
+	border-radius: 5px;
+	background: #01014b;
+	color: white;
+	box-shadow: 3px 3px 6px black;
+}
+.hours-title,.minutes-title,.seconds-title{
+	font-size: 1.5rem;
+	padding: 2%;
+	background: #3703a3;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 3px 3px 6px black;
+}
+.ampm{
+	text-align: center;
+	color: white;
+	background: #3703a3;
+	margin-top: 3%;
+	font-size: 3rem;
+	border-radius: 5px;
+	opacity: 80%;
+	box-shadow: 3px 3px 6px black;
+}
+body{
+	background: url(https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q=);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
